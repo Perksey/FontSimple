@@ -2,6 +2,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.FontSimple", "Ultz.FontSimple\Ultz.FontSimple.csproj", "{F9238629-3D83-4E80-89FD-036D970CE95D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototyping", "Prototyping\Prototyping.csproj", "{08DC0215-6176-41B0-B246-C3915D4A61A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.FontSimple.Veldrid", "Ultz.FontSimple.Veldrid\Ultz.FontSimple.Veldrid.csproj", "{63627244-0CFC-46EE-AA46-4618BD6AD45B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.FontSimple.OpenGL", "Ultz.FontSimple.OpenGL\Ultz.FontSimple.OpenGL.csproj", "{6D7905E6-1244-477A-98C6-2333494F3C3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.FontSimple.OpenGLES", "Ultz.FontSimple.OpenGLES\Ultz.FontSimple.OpenGLES.csproj", "{1F93268F-F51B-44E9-A8D3-CE1E4FCD45B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +20,21 @@ Global
 		{F9238629-3D83-4E80-89FD-036D970CE95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9238629-3D83-4E80-89FD-036D970CE95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9238629-3D83-4E80-89FD-036D970CE95D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08DC0215-6176-41B0-B246-C3915D4A61A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08DC0215-6176-41B0-B246-C3915D4A61A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08DC0215-6176-41B0-B246-C3915D4A61A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08DC0215-6176-41B0-B246-C3915D4A61A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63627244-0CFC-46EE-AA46-4618BD6AD45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63627244-0CFC-46EE-AA46-4618BD6AD45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63627244-0CFC-46EE-AA46-4618BD6AD45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63627244-0CFC-46EE-AA46-4618BD6AD45B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D7905E6-1244-477A-98C6-2333494F3C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D7905E6-1244-477A-98C6-2333494F3C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D7905E6-1244-477A-98C6-2333494F3C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D7905E6-1244-477A-98C6-2333494F3C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F93268F-F51B-44E9-A8D3-CE1E4FCD45B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F93268F-F51B-44E9-A8D3-CE1E4FCD45B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F93268F-F51B-44E9-A8D3-CE1E4FCD45B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F93268F-F51B-44E9-A8D3-CE1E4FCD45B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

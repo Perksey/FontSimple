@@ -74,7 +74,6 @@ namespace Ultz.FontSimple
             PathGlyphBuilder glyphBuilder = new PathGlyphBuilder(path);
 
             TextRenderer renderer = new TextRenderer(glyphBuilder);
-
             renderer.RenderText(text, style);
 
             return glyphBuilder.Paths;
