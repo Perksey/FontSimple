@@ -6,7 +6,7 @@ using SixLabors.ImageSharp.PixelFormats;
 
 namespace Ultz.FontSimple
 {
-    public class TextAtlasBuilder : IDisposable
+    public class TextAtlas : IDisposable
     {
         private readonly ITextAtlas _atlas;
         private readonly RendererOptions _opts;
@@ -15,7 +15,7 @@ namespace Ultz.FontSimple
         private int _currentX;
         private int _currentY;
         
-        public TextAtlasBuilder(ITextAtlas atlas, RendererOptions opts, int expandY)
+        public TextAtlas(ITextAtlas atlas, RendererOptions opts, int expandY)
         {
             _atlas = atlas;
             _opts = opts;
@@ -70,7 +70,7 @@ namespace Ultz.FontSimple
             }
 
             var rgbaBytes =
-                TextImageBuilder.RenderBytes(_opts, c.ToString(), Rgba32.Transparent, Rgba32.White, out var size);
+                TextImage.RenderBytes(_opts, c.ToString(), Rgba32.Transparent, Rgba32.White, out var size);
             var topLeft = GetPoint(size);
             _atlas.Insert(topLeft.X, topLeft.Y, size.Width, size.Height, rgbaBytes);
             var rect = new Rectangle(topLeft, size);

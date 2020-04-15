@@ -11,7 +11,7 @@ namespace Prototyping
     {
         static void Main(string[] args)
         {
-            using var bytes = TextImageBuilder.RenderImage(
+            using var bytes = TextImage.RenderImage(
                 new RendererOptions(SystemFonts.Collection.CreateFont("Arial", 12f)), "Hello, world!",
                 Rgba32.CornflowerBlue, Rgba32.White);
             using var output = File.OpenWrite("File.png");

@@ -10,7 +10,7 @@ using SixLabors.Shapes;
 
 namespace Ultz.FontSimple
 {
-    public static class TextImageBuilder
+    public static class TextImage
     {
         public static byte[] RenderBytes(RendererOptions font, string text, Rgba32 backColour, Rgba32 textColour, out Size size)
         {
