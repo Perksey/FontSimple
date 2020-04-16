@@ -39,7 +39,7 @@ namespace Ultz.FontSimple
             renderer.RenderText(text, font);
 
             builder.Paths
-                .SaveImage((int) size.Width + 20, (int) size.Height + 20, out var ret, backColour, textColour);
+                .SaveImage((int) size.Width, (int) size.Height, out var ret, backColour, textColour);
             return ret;
         }
 

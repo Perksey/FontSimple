@@ -79,7 +79,6 @@ namespace Ultz.FontSimple.Veldrid
         public void Dispose()
         {
             Texture.Dispose();
-            _graphicsDevice?.Dispose();
             _commandList.Dispose();
         }
     }
