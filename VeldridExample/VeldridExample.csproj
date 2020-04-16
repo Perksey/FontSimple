@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Veldrid" Version="4.7.0" />
+      <PackageReference Include="Veldrid.SPIRV" Version="1.0.13" />
+      <PackageReference Include="Veldrid.StartupUtilities" Version="4.7.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Ultz.FontSimple.Veldrid\Ultz.FontSimple.Veldrid.csproj" />
+      <ProjectReference Include="..\Ultz.FontSimple\Ultz.FontSimple.csproj" />
+    </ItemGroup>
+
+</Project>
